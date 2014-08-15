@@ -1,12 +1,165 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-*{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  margin-left: 55px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  width: 75%;
+  text-align: center;
+  margin-left: 150px;
+}
+
+h3{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 15px;
+  color: white;
+  padding: 6px;
+}
+
+#gamblers {
+  padding: 20px;
 }
 
 body{
-  background-image: url(/img/node.png);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+body{
+  padding: 20px;
+  background-image: url('http://1.bp.blogspot.com/-EK2W1u6zpk8/TjLyUZ1zUwI/AAAAAAAAAT0/ywGl_q9YGPE/s1600/Dubin_Western_Saloon.jpg');
   background-size: cover;
 }
 
+.gambler{
+  display: inline-block;
+  width: 250px;
+  border: 1px solid #111111;
+  margin: 0px 20px 20px 0px;
+  background-color: #D50500;
+  padding: 7px;
+}
+
+.gambler > .money{
+  font-weight: bold;
+  color: green;
+}
+
+.gambler > .name{
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.gambler > .results{
+  margin: 10px 0px 10px 0px;
+}
+
+.gambler > .results > .wins{
+  font-weight: bold;
+  color: blue;
+}
+
+.gambler > .results > .losses{
+  font-weight: bold;
+  color: black
+}
+
+.gambler > .photo{
+  height: 300px;
+  background-size: cover;
+  border: 1px solid #111111;
+}
+
+.spouse > .photo{
+  height: 250px;
+  background-size: cover;
+  border-top: 1px solid #111111;
+  border: 1px solid #111111;
+}
+
+.spouse > .name{
+  text-decoration: underline;
+  font-size: 15px;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.value{
+  font-weight: bold;
+  color: green;
+}
+
+.asset{
+  border: 1px dashed #111111;
+  margin-bottom: 10px;
+}
+
+.asset > .photo{
+  position: relative;
+  height: 150px;
+  background-size: cover;
+}
+
+.photo > .info{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #FFDC00;
+  color: #111111;
+  border: 1px solid #111111;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 55px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+#asset a{
+  color: black;
+  padding: 6px;
+  font-weight: bold;
+}
+
+#links a:link, #links a:visited {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  background-color: grey;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#links a:hover, #links a:active {
+  background-color: #D50500;
+}

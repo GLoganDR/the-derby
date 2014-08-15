@@ -1,0 +1,30 @@
+extends ../shared/template
+block content
+  h2 The Gamblers
+  #gamblers
+    each gambler in gamblers
+      .gambler(data-gambler-id=gambler._id.toString())
+        .photo(style='background-image:url("#{gambler.photo}");')
+        .name= gambler.name
+        .money $#{gambler.money.toFixed(2)}
+        .results
+          span.wins Wins: #{gambler.results.wins},
+          span.losses Losses: #{gambler.results.losses}
+        if gambler.assets.length
+          .spouse
+            .photo(style='background-image:url("#{gambler.spouse.photo}");')
+            .name= gambler.spouse.name
+        .assets
+          a(href='/gamblers/#{gambler._id}/assets/new') Add Asset
+          each asset in gambler.assets
+            .asset
+              .photo(style='background-image:url("#{asset.photo}");')
+                .info
+                  .name= asset.name
+                  .value $#{asset.value.toFixed(2)}
+    footer (c)2014, Logan Richardson
+
+block scripts
+
+  script(src='/js/user/gambler.js')
+

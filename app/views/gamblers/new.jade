@@ -1,0 +1,10 @@
+extends ../shared/template
+block content
+  h2 New Gambler
+  form(method='post', action='/gamblers')
+    input(name='name', type='text', placeholder='Name')
+    input(name='photo', type='text', placeholder='Photo')
+    input(name='spouse[name]', type='text', placeholder='Spouse Name')
+    input(name='spouse[photo]', type='text', placeholder='Spouse Photo')
+    input(name='money', type='number', placeholder='Money')
+    button Create

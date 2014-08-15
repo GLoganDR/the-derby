@@ -2,13 +2,17 @@ doctype html
 html
   head
     meta(charset='utf-8')
-    title Node/Express.js Template
+    title The Derby
+    link(rel='stylesheet', href='/css/reset.css')
     link(rel='stylesheet', href='/css/style.css')
   body
-    h1 Node/Express.js Template
+    header
+      h1 The Derby
     nav
-      ul
+      ul#links
         li: a(href='/') Home
+        li: a(href='/gamblers') Gamblers
+        li: a(href='/gamblers/new') New Gambler
 
     block content
 

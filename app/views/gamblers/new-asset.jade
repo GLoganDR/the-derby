@@ -1,0 +1,9 @@
+extends ../shared/template
+block content
+  h2 New Asset
+  form(method='post', action='/gamblers/#{id}/assets')
+    input(name='_method', type='hidden', value='put')
+    input(name='name', type='text', placeholder='Name')
+    input(name='photo', type='text', placeholder='Photo')
+    input(name='value', type='number', placeholder='Value')
+    button Add

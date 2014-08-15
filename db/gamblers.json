@@ -1,0 +1,29 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"Bob",
+  "money":5000.50,
+  "photo":"http://www.gambling-guide.poker.tj/images/famous-gamblers_clip_image002.jpg",
+  "spouse":{"name":"Sara", "photo":"http://media-cache-ak0.pinimg.com/236x/5b/cc/6b/5bcc6b12cca9367988529cd96577939e.jpg"},
+  "assets":[{"name":"Diamond Ring", "photo":"http://www.sareenjewelry.com/image/cache/data/tulip/TLP401/tulip-ladies-diamond-ring-20663053-1000x1000.jpg", "value":5000}, {"name":"Car", "photo":"http://www.topgear.com/uk/assets/cms/9b857c8b-4607-4973-a88b-5a17f3b24482/Thumbnail.jpg?p=140516_05:33", "value":300000}],
+  "results":{"wins":5, "losses":3}
+}
+
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Jim",
+  "money":10000.50,
+  "photo":"http://amasquerade.com/images/products/1865_1890_wild_west/1800sgambler.jpg",
+  "spouse":{"name":"Jane", "photo":"http://media-cache-ak0.pinimg.com/736x/8a/f2/cf/8af2cfcdf34d87b0baf178640738d31e.jpg"},
+  "assets":[{"name":"Diamond Ring", "photo":"http://pics.zoara.net/images/products/large/108443_double_prong_diamond_ring_angle.jpg", "value":3000}, {"name":"Car", "photo":"http://www.stancenation.com/wp-content/uploads/2013/04/vw-beetle-bug-slammed-7.jpg", "value":10000}],
+  "results":{"wins":1, "losses":4}
+}
+
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"John",
+  "money":15000.50,
+  "photo":"http://media-cache-ec0.pinimg.com/236x/7e/37/07/7e37073c1182db09c2e973691a3fe918.jpg",
+  "spouse":{"name":"Abigale", "photo":"http://welcometotumbleweed.com/wp-content/uploads/2012/05/abigale-sblog.jpg"},
+  "assets":[{"name":"Diamond Ring", "photo":"http://pics.zoara.net/images/products/large/1120245_beautifully_blossoming_flower_diamond_ring_angle.jpg", "value":10000}, {"name":"Car", "photo":"http://s1.cdn.autoevolution.com/images/news/gallery/2012-sema-1956-vw-beetle-by-fms-automotive-live-photos_2.jpg", "value":30000}],
+  "results":{"wins":7, "losses":2}
+}
